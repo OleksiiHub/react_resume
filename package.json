@@ -1,6 +1,6 @@
 {
-  "name": "03-resume",
-  "version": "0.1.0",
+  "name": "Resume React",
+  "version": "0.1.3",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
