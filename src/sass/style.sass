@@ -4,10 +4,7 @@ $border_style: solid #000
 $color_link:  #0329c2c7
 
 .about-style
-  display: flex
-  flex-direction: column
-  flex-wrap: nowrap
-  justify-content: space-around
+  padding-bottom: 2rem
   &_img
     width: 100%
     height: auto
@@ -19,13 +16,12 @@ h5>a
     text-decoration: underline
 
 .header-style
-  width: 70%
+  width: 80%
   border-bottom: 3px $border_style
   line-height: 3rem
 
 .mar_h3_h4_h5
   margin: .5rem 0 .5rem 2.5rem
-
 
 h3+p
   margin: .5rem 0 .5rem 2.5rem
@@ -34,9 +30,25 @@ h3+p
   display: flex
   flex-direction: column
   justify-content: space-around
+  padding-bottom: 2rem
   &_comment
     width: 80%
 
+.style_skills 
+  display: flex
+ul 
+  padding: 0
+  font-size: 16px
+  line-height: 19px
+  margin-left: 1rem
+.col-50 
+  flex: 0 0 auto
+  width: 50%
+
+li
+  list-style: none
+  &:before
+    content: '\2605 '
 
 
 
