@@ -9,7 +9,7 @@ function ExpDescription() {
             At the moment I know html5, css3, JavaScript, React, Git, preprocessors less, sass, scss. I am learning Redux. 
             I use the libraries ReactBootstrap , Tailwind.</p>
             <h3 className="description-style_header header-style mar_h3_h4_h5">Skills Highlights</h3>
-            <div class="style_skills mar_h3_h4_h5">
+            <div class="description-style_skills mar_h3_h4_h5">
                 <div class="col-50">
                     <ul>
                         <li> HTML5</li>
