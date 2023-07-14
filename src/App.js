@@ -1,4 +1,3 @@
-import './App.css';
 import './css/style.min.css'
 import './css/app.min.css'
 import AboutMe from './components/AboutMe';
