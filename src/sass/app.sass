@@ -1,16 +1,21 @@
+$border_style: solid #000
+
 @media (min-width: 731px)
-
-
   .about-style
     display: flex
     flex-direction: column
     flex-wrap: nowrap
-    justify-content: space-around
+    justify-content: flex-start
     border-right: 1px solid #000
+    &_img
+      border-top: 1px $border_style
+      border-bottom: 1px $border_style
+      border-left: 1px $border_style
+      
   .page-style
     display: flex
     flex-direction: row
-    align-items: flex-start
+
   .text-center
     margin: 1rem 0
     text-align: center
@@ -26,5 +31,8 @@
     margin-bottom: 1rem
   .header-style
     width: 80%
+  .about-style_img
+    border: 1px $border_style
+
 
 
