@@ -8,8 +8,8 @@ function ExpDescription(props) {
                 At the moment I know html5, css3, JavaScript, React, Git, preprocessors less, sass, scss. I am learning Redux.
                 I use the libraries ReactBootstrap , Tailwind and others.</p>
             <h3 className="description-style_header header-style mar_h3_h4_h5">Skills Highlights</h3>
-            <div class="description-style_skills mar_h3_h4_h5">
-                <div class="col-50">
+            <div className="description-style_skills mar_h3_h4_h5">
+                <div className="col-50">
                     <ul>
                         <li> HTML5</li>
                         <li> CSS3</li>
@@ -17,7 +17,7 @@ function ExpDescription(props) {
                         <li> React</li>
                     </ul>
                 </div>
-                <div class="col-50">
+                <div className="col-50">
                     <ul>
                         <li> Bootstrap</li>
                         <li> Git</li>
@@ -56,7 +56,7 @@ function ExpDescription(props) {
                 <p className="description-style_comment"><span className="description-style_experience">Degree and major</span> WEB, HTML5, CSS3, JavaScript, React, Git, Redux</p>
             </div>
             <div className="description-style_border">
-                <a className="btn description-style_btn" target={props.target} href="http://localhost:3000/">Weather ReactApp</a>
+                <a className="btn description-style_btn" href="http://localhost:3000/">Weather ReactApp</a>
 
             </div>
         </div>
