@@ -1,5 +1,4 @@
 import 'semantic-ui-css/semantic.min.css'
-
 import { Icon } from 'semantic-ui-react'
 
 function AboutMe(props) {

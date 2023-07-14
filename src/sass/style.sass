@@ -25,33 +25,44 @@ h5>a
   margin: .5rem 0 .5rem 2.5rem
   font-size: 1.5rem
   
-
-h3+p
-  margin: .5rem 0 .5rem 2.5rem
-
 .description-style
   display: flex
   flex-direction: column
   justify-content: space-around
-  padding-bottom: 2rem
+  padding: 1rem 0 
   &_comment
     width: 80%
+    margin: 0 0 0.4em
   &_skills 
     display: flex
+  &_experience
+    font-weight: bold
+  &_border
+    width: 80%
+    border-bottom: .3px $border_style
+    line-height: 3rem
+    margin: 0.5rem 0 0.5rem 2.5rem
+    padding-bottom: 1em
 
 ul 
   padding: 0
   font-size: 16px
   line-height: 19px
-  margin-left: 1rem
+
 .col-50 
   flex: 0 0 auto
   width: 50%
 
 li
   list-style: none
+  line-height: 1.5rem
   &:before
     content: '\2605'
+
+p.description-style_header.mar_h3_h4_h5
+  width: 80%
+
+
 
 
 
