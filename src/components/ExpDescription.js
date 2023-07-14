@@ -1,4 +1,4 @@
-function ExpDescription(props) {
+function ExpDescription() {
     return (
         <div className="description-style">
             <h3 className="description-style_header header-style mar_h3_h4_h5">Summary</h3>
