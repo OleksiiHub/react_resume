@@ -4,11 +4,11 @@ import { Icon } from 'semantic-ui-react'
 function AboutMe(props) {
     return (
         <div className="about-style theme-color_backgroud">
-            <div className="text-center"><h1 id='margin_h1'>Oleksii Buntikov</h1></div>
+            <div className="text-center margin_h1"><h1>Oleksii Buntikov</h1></div>
             <img className="about-style_img" src={props.src} alt={props.alt} />
             <h3 className="header-style mar_h3_h4_h5">Contact</h3>
             <h4 className='mar_h3_h4_h5'>{<Icon name='phone square' />}Phone</h4>
-            <h5 className='mar_h3_h4_h5'><a href="tel:+74951111111">+38 (006) 007-57-37</a></h5>
+            <h5 className='mar_h3_h4_h5'><a href="tel:+380660075737">+38 (006) 007-57-37</a></h5>
             <h4 className='mar_h3_h4_h5'>{<Icon name='mail' />}E-mail</h4>
             <h5 className='mar_h3_h4_h5'><a href="mailto:githubbai@gmail.com">githubbai@gmail.com</a></h5>
             <h4 className='mar_h3_h4_h5'>{<Icon name='linkedin' />}Linkedin</h4>

@@ -1,4 +1,4 @@
-function ExpDescription() {
+function ExpDescription(props) {
     return (
         <div className="description-style">
             <h3 className="description-style_header header-style mar_h3_h4_h5">Summary</h3>
@@ -56,9 +56,8 @@ function ExpDescription() {
                 <p className="description-style_comment"><span className="description-style_experience">Degree and major</span> WEB, HTML5, CSS3, JavaScript, React, Git, Redux</p>
             </div>
             <div className="description-style_border">
-                <button className="btn description-style_btn">
-                    Weather App
-                </button>
+                <a className="btn description-style_btn" target={props.target} href="http://localhost:3000/">Weather ReactApp</a>
+
             </div>
         </div>
     )
