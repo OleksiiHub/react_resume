@@ -57,7 +57,6 @@ function ExpDescription() {
             </div>
             <div className="description-style_border">
                 <a className="btn description-style_btn" href="http://localhost:3000/">Weather ReactApp</a>
-
             </div>
         </div>
     )
