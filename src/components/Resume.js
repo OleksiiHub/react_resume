@@ -1,6 +1,6 @@
 import AboutMe from '../components/AboutMe';
 import ExpDescription from '../components/ExpDescription'
-import photo from '../image/photo.jpg'
+import photo from '../image/image.jpg'
 
 
 function Resume(){
