@@ -2,11 +2,8 @@ function ExpDescription() {
     return (
         <div className="description-style">
             <h3 className="description-style_header header-style mar_h3_h4_h5">Summary</h3>
-            <p className="description-style_header mar_h3_h4_h5">I am a beginner frontend developer.
-                I completed courses in this area, I am engaged in self-study.
-                In the future, I plan to get to know Node.js, Express.js, Nest.js, Koa.js and MongoDB better.
-                At the moment I know html5, css3, JavaScript, React, Git, preprocessors less, sass, scss. I am learning Redux.
-                I use the libraries ReactBootstrap , Tailwind and others.</p>
+            <p className="description-style_header mar_h3_h4_h5">I am the begining Front end Developer.
+                The desire to learn and self-education are my priorities. That is why I have completed several courses in order to know  html5, css3, JavaScript, Reacr, Git, preprocessors LESS, SASS, and SCSS. My next step will be farmilization with Node.js, Express.js, Nest,js, Koa.js and MongoBD. Cerruntly i am learning Redux. I use libraries ReactBootstrap, Tailwind etc.</p>
             <h3 className="description-style_header header-style mar_h3_h4_h5">Skills Highlights</h3>
             <div className="description-style_skills mar_h3_h4_h5">
                 <div className="col-50">
@@ -41,12 +38,12 @@ function ExpDescription() {
             </div>
             <h3 className="description-style_header header-style mar_h3_h4_h5">Education</h3>
             <div className="description-style_border">
-                <p className="description-style_comment"><span className="description-style_experience">Dates of studying:</span> c 2022 – по 2023</p>
+                <p className="description-style_comment"><span className="description-style_experience">Dates of studying:</span> from 2022 – to 2023</p>
                 <p className="description-style_comment"><span className="description-style_experience">Name of institution:</span> IT_Generation robotdreams</p>
                 <p className="description-style_comment"><span className="description-style_experience">Degree and major</span> JavaScript developer</p>
             </div>
             <div className="description-style_border">
-                <p className="description-style_comment"><span className="description-style_experience">Dates of studying:</span> c 2022 – по 2022</p>
+                <p className="description-style_comment"><span className="description-style_experience">Dates of studying:</span> from 2022 – to 2022</p>
                 <p className="description-style_comment"><span className="description-style_experience">Name of institution:</span> PROG_academy</p>
                 <p className="description-style_comment"><span className="description-style_experience">Degree and major</span> JavaScript developer</p>
             </div>
