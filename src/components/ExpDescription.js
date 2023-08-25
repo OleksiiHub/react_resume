@@ -56,9 +56,9 @@ function ExpDescription() {
                 <p className="description-style_comment"><span className="description-style_experience">Degree and major</span> WEB, HTML5, CSS3, JavaScript, React, Git, Redux</p>
             </div>
             <div className="description-style_border">
-                <a className="btn description-style_btn m-1" href="http://localhost:3000/">React Weather App</a>
-                <a className="btn description-style_btn m-1" href="http://localhost:3000/">Resume Description</a>
-                <a className="btn description-style_btn m-1" href="http://localhost:3000/">test</a>
+                <a className="btn description-style_btn mb-1" href="http://localhost:3000/">React Weather App</a>
+                <a className="btn description-style_btn mb-1" href="http://localhost:3000/">Resume Description</a>
+                <a className="btn description-style_btn mb-1" href="http://localhost:3000/">Download Resume</a>
             </div>
         </div>
     )
