@@ -1,13 +1,14 @@
 import 'semantic-ui-css/semantic.min.css'
 import { Icon } from 'semantic-ui-react'
 
-function AboutMe({src,target,alt}) {
+function AboutMe({ src, target, alt }) {
 
     return (
         <div className="about-style theme-color_backgroud">
             <div className="text-center margin_h1"><h1>Oleksii Buntikov</h1></div>
-            <img className="about-style_img" src={src} alt={alt} />
-            
+            <div className='text-center'>
+                <img className="about-style_img" src={src} alt={alt} />
+            </div>
             <h3 className="header-style mar_h3_h4_h5">Contacts</h3>
             <h4 className='mar_h3_h4_h5'>{<Icon name='phone square' />}Phone</h4>
             <h5 className='mar_h3_h4_h5'><a href="tel:+380660075737">+38 (006) 007-57-37</a></h5>
