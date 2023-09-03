@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { NestedModal } from '../components/NestedModal';
 import { GiWinterHat, GiWinterGloves, GiDress, GiTShirt, GiUnderwearShorts, GiHoodie, GiTrousers, GiMonclerJacket, GiLabCoat } from "react-icons/gi";
 
-export function GetWeather() {
+function GetWeather() {
 
     const [cityName, setCityName] = useState("Kharkiv");
     const [inputText, setInputText] = useState("");
@@ -115,3 +115,4 @@ export function GetWeather() {
 }
 
 
+export default GetWeather;

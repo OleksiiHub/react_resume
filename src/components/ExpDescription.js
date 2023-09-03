@@ -6,7 +6,7 @@ function ExpDescription() {
 
             <h3 className="description-style_header header-style mar_h3_h4_h5">Summary</h3>
             <p className="description-style_header mar_h3_h4_h5">I am the begining Frontend Developer.
-                The desire to learn and self-education are my priorities. That is why I have completed several courses in order to know  html5, css3, JavaScript, Reacr, Git, preprocessors LESS, SASS, and SCSS. My next step will be farmilization with Node.js, Express.js, Nest,js, Koa.js and MongoBD. Cerruntly i am learning Redux. I use libraries ReactBootstrap, Tailwind etc.</p>
+                The desire to learn and self-education are my priorities. That is why I have completed several courses in order to know  HTML5, CSS3, JavaScript, React, Git, preprocessors LESS, SASS, and SCSS. My next step will be farmilization with Node.js, Express.js, Nest,js, Koa.js and MongoBD. Cerruntly i am learning Redux. I use libraries React Bootstrap, Tailwind etc.</p>
             <h3 className="description-style_header header-style mar_h3_h4_h5">Skills Highlights</h3>
             <div className="description-style_skills mar_h3_h4_h5">
                 <div className="col-50">
