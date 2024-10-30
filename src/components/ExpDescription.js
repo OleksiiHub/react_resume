@@ -53,7 +53,7 @@ function ExpDescription() {
             <div className="description-style_border">
                 <p className="description-style_comment"><span className="description-style_experience">Dates of studying:</span>c 2022</p>
                 <p className="description-style_comment"><span className="description-style_experience">Name of institution:</span> Udemy(Bogdan Stashchuk, Ivan Petrychenko)</p>
-                <p className="description-style_comment"><span className="description-style_experience">Degree and major</span> WEB, HTML5, CSS3, JavaScript, React, Git, Redux</p>
+                <p className="description-style_comment"><span className="description-style_experience">Degree and major</span> WEB, HTML5, CSS3, JavaScript, React, Git, Redux, Node</p>
             </div>
             {/* <div className="description-style_border">
                 <a className="btn description-style_btn mb-1" href="http://localhost:3000/">Resume</a>
